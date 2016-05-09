@@ -6,6 +6,8 @@ Nuget
 --------------------------------
 Install-Package Winforms.DataBindings.Extensions
 
+https://www.nuget.org/packages/Winforms.DataBindings.Extensions/
+
 Example 
 --------------------------------
 
