@@ -1,2 +1,10 @@
 # Winforms.DataBinding.Extensions
-Extension methods to assit with databindings in winforms. Ideal for MVVM applications.
+
+Strongly typed databindings for win forms. Ideal for MVVM applications.
+
+Example 
+
+txtDescription.Bind<TextBox, IConnectionDetailsViewModel>(t => t.Text, _viewModel, vm => vm.Description, DataSourceUpdateMode.OnValidation);
+
+
+connectionsGridView1.Bind<ConnectionsGridView, IConnectionsViewModel>(t => t.DataSource, _viewModel, vm => vm.Connections, DataSourceUpdateMode.OnPropertyChanged);
