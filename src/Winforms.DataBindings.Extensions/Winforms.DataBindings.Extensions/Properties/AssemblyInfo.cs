@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Winforms.DataBindings.Extensions")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Strongly typed databindings for win forms. Ideal for MVVM applications.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Winforms.DataBindings.Extensions")]

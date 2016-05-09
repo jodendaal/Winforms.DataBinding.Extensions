@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Winforms.DataBinding.Extensions</id>
+    <version>$version$</version>
+    <title>Winform Databindings - Strongly typed</title>
+    <authors>Justim Odendaal</authors>
+    <owners>Justim Odendaal</owners>
+    <licenseUrl>https://github.com/jodendaal/Winforms.DataBinding.Extensions/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/jodendaal/Winforms.DataBinding.Extensions</projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Strongly typed databindings for win forms. Ideal for MVVM applications.
+
+Example
+
+txtDescription.Bind<TextBox, IConnectionDetailsViewModel>(t => t.Text, _viewModel, vm => vm.Description, DataSourceUpdateMode.OnValidation);
+
+
+connectionsGridView1.Bind<ConnectionsGridView, IConnectionsViewModel>(t => t.DataSource, _viewModel, vm => vm.Connections, DataSourceUpdateMode.OnPropertyChanged);
+</description>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags>databinding winforms control</tags>
+  </metadata>
+  <files>
+	<file src="Winforms.DataBindings.Extensions\Winforms.DataBindings.Extensions\bin\$configuration$\Winforms.DataBindings.Extensions.dll" target="lib\net40\" />
+  </files>
+</package>
