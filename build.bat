@@ -14,10 +14,10 @@ if "%nuget%" == "" (
 	set nuget=nuget
 )
 
-%WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild src\Winforms.DataBindings.Extensions\Winforms.DataBindings.Extensions.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
+"%WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild src\Winforms.DataBindings.Extensions\Winforms.DataBindings.Extensions.sln" /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
 
 mkdir Build
 mkdir Build\lib
 mkdir Build\lib\net40
 
-%nuget% pack "src\Winforms.DataBinding.Extesnsions\Winforms.DataBinding.Extesnsions.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
+%nuget% pack "src\Winforms.DataBindings.Extensions\Winforms.DataBindings.Extensions.nuspec.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
