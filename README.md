@@ -15,3 +15,10 @@ Example
 
 
 	connectionsGridView1.Bind<ConnectionsGridView, IConnectionsViewModel>(t => t.DataSource, _viewModel, vm => vm.Connections, DataSourceUpdateMode.OnPropertyChanged);
+	
+
+Error Provider Extensions
+--------------------------------
+	
+	txtDescription.Bind<TextBox, IConnectionDetailsViewModel>(t => t.Text, _viewModel, vm => vm.Description, DataSourceUpdateMode.OnValidation);
+	errorProvider1.RegisterFormBindings(this);
