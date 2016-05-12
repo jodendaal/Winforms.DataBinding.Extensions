@@ -2,6 +2,12 @@
 
 Strongly typed databindings for win forms. Ideal for MVVM applications.
 
+Nuget 
+--------------------------------
+Install-Package Winforms.DataBindings.Extensions
+
+https://www.nuget.org/packages/Winforms.DataBindings.Extensions/
+
 Example 
 --------------------------------
 
