@@ -1,6 +1,6 @@
 # Winforms.DataBinding.Extensions
 
-Strongly typed databindings for win forms. Ideal for MVVM applications.
+Strongly typed databindings for winforms. Ideal for MVVM applications.
 
 Nuget 
 --------------------------------
