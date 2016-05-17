@@ -24,6 +24,6 @@ connectionsGridView1.Bind<ConnectionsGridView, IConnectionsViewModel>(t => t.Dat
     <tags>databinding winforms control</tags>
   </metadata>
   <files>
-	<file src="Winforms.DataBindings.Extensions\Winforms.DataBindings.Extensions\bin\$configuration$\Winforms.DataBindings.Extensions.dll" target="lib\net40\" />
+	<file src="bin\$configuration$\Winforms.DataBindings.Extensions.dll" target="lib\net40\" />
   </files>
 </package>
