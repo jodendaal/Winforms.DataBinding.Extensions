@@ -29,5 +29,5 @@ The error provider extensions allow you to use the errorProvider with System.Com
 	}
 	
 		
-	txtDescription.Bind<TextBox, IConnectionDetailsViewModel>(t => t.Text, _viewModel, vm => vm.Description, DataSourceUpdateMode.OnValidation);
+	txtDescription.Bind<TextBox, ViewModel>(t => t.Text, _viewModel, vm => vm.Description, DataSourceUpdateMode.OnValidation);
 	errorProvider1.RegisterFormBindings(this);
