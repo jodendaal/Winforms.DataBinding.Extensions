@@ -10,14 +10,15 @@
     <projectUrl>https://github.com/jodendaal/Winforms.DataBinding.Extensions</projectUrl>
     <iconUrl></iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Strongly typed databindings for win forms. Ideal for MVVM applications.
+    <description>
+Strongly typed databindings for win forms. Ideal for MVVM applications.
 
 Example
 
-txtDescription.Bind<TextBox, IConnectionDetailsViewModel>(t => t.Text, _viewModel, vm => vm.Description, DataSourceUpdateMode.OnValidation);
+txtDescription.Bind&lt;TextBox, IConnectionDetailsViewModel&gt;(t =&gt; t.Text, _viewModel, vm =&gt; vm.Description, DataSourceUpdateMode.OnValidation);
 
 
-connectionsGridView1.Bind<ConnectionsGridView, IConnectionsViewModel>(t => t.DataSource, _viewModel, vm => vm.Connections, DataSourceUpdateMode.OnPropertyChanged);
+connectionsGridView1.Bind&lt;ConnectionsGridView, IConnectionsViewModel&gt;(t =&gt; t.DataSource, _viewModel, vm =&gt; vm.Connections, DataSourceUpdateMode.OnPropertyChanged);
 </description>
     <releaseNotes></releaseNotes>
     <copyright></copyright>
